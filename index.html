@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav flex  align">
+        <div class="logo flex align">
+            <img class="invert" src="img.svg" alt="logo">
+        </div>
+        <div class="navChild flex align">
+            <div class="home flex align justifyCont">
+                <img src="homelogo.svg" alt="home">
+            </div>
+            <div class="inputBtn flex align ">
+                <button class="searchBar">
+                    <img class="invert" src="searchL.svg" alt="searchbar">
+                </button>
+                <input id="form" type="text" placeholder="What do you want to play ?" class="inputLabel"> </input>
+                <button class="browse">
+                    <img class="invert" src="browseL.svg" alt="browse">
+                </button>
+            </div>
+        </div>
+
+        <div class="sideBar flex align">
+            <button class="btndim">Premium</button>
+            <button class="btndim">Support</button>
+            <button class="btndim">Download</button>
+            <button class="btnInstall flex align justifyCont">
+                <img src="install.svg" alt="installBtn">
+                Install App</button>
+            <button class="sign flex align justifyCont">Sign up</button>
+            <button class="login">
+                Log in
+            </button>
+        </div>
+    </div>
+    <div class="bottomLayout flex">
+        <div class="first">
+            <div class="upper">
+                <div class="library flex align">
+                    <h3>Your Library</h3>
+                    <button class="add flex align">
+                        <img src="add.svg" alt="playlistAdd">
+                    </button>
+                </div>
+                <div class="playlist">
+                    <div class="block">
+                        <div class="subBlock1">
+                            <span>Create your first playlist</span>
+                            <span>It's easy,we'll help you</span>
+                        </div>
+                        <div class="subBlock2 ">
+                            <button class="playLBtn flex align justifyCont">Create playlist</button>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <div class="subBlock1">
+                            <span>Let's find some podcasts to follow</span>
+                            <span>We'll keep you updated on new episodes</span>
+                        </div>
+                        <div class="podCast">
+                            <button class="podCBtn">Browse podcasts</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower ">
+                <div class="lchild">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/">
+                            <span>Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                            <span>Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                            <span>Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                            <span>About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/">
+                            <span>Accessibility</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="lowerBtn flex align">
+                    <button class="lang flex align justifyCont">
+                       <img class="invert" src="glb.svg" alt="globe">
+                       English
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="list1">
+                <div class="btn1List1">
+                    <div class="trend">
+                        <a href="#######">Trending  songs</a>
+                    </div>
+                </div>
+                <div class="btn2List1">
+                    <a class="show" href="######">Show all</a>
+                </div>
+            </div>
+            <div class="container1 flex">
+                <div class="card" data-song="Saiyaara Title Track - Saiyaara 2025 320KBPS.mp3">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont" data-song="Saiyaara Title Track - Saiyaara 2025 320KBPS.mp3">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02a7e251b543c77a6ed356dfbe" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-song="Dhun - Saiyaara 2025 320KBPS.mp3">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont" data-song="Dhun - Saiyaara 2025 320KBPS.mp3">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02781faf59a3cb980fe3b493f8" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-song="Tum Ho Toh - Saiyaara 2025 320KBPS.mp3">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont" data-song="Tum Ho Toh - Saiyaara 2025 320KBPS.mp3">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02d998c880f085f08c7ddeeafc" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-song="Barbaad - Saiyaara 2025 320KBPS.mp3">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont" data-song="Barbaad - Saiyaara 2025 320KBPS.mp3">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02148a06ae24e68c088d8d2954" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" data-song="Humsafar - Saiyaara 2025 320KBPS.mp3">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont" data-song="Humsafar - Saiyaara 2025 320KBPS.mp3">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02dfc5ea836092ec71ca7a5dcb" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02fb6b64d74a39c88ffb8737d9" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02bd7e1592d75a9ad8d211debd" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67616d00001e020a47bbe7141fdfe0eb2cdba7" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e024e84dbc51038df1a3b143d90" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02d154ebe17fafefb73e9e51af" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02c820f033bd82bef4355d1563" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02d9bd2370b63b8aa6e7f9ff77" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cardImage">
+                        <div class="playBtn flex align justifyCont">
+                            <img src="playBtn.svg" alt="play">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67616d00001e02e80fd38e3f7025158e40a3ae" alt="image">
+    
+                    </div>
+                    <div class="description">
+                        <div class="title">
+                            <span>Saiyaara (From "Saiyaara")</span>
+                        </div>
+                        <div class="artist">
+                            <span>Tanishk Bagchi,Faheem Abdullah,Arslan Nizami,Irshad Kamil</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar invert">
+                <div class="songInfo"></div>
+                <div class="songBtns flex align justifyCont">
+                    <img class="playTypo" src="prevSong.svg" alt="" id="prev">
+                    <img class="playTypo" src="playBtn.svg" alt="" id="changeBtn">
+                    <img class="playTypo" src="nextSong.svg" alt="" id="next">
+                </div>
+                <div class="songDuration"></div>
+                <div class="seekBar">
+                <div class="circle">
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
